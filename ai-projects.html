@@ -213,7 +213,7 @@
                     organisations and governments
                   </p>
                 </h3>
-                <div class="button130">
+                <div class="button130" id="readMoreDataExtraction">
                   <b class="button131">READ MORE</b>
                   <img
                     class="arrow-icon73"
@@ -255,7 +255,7 @@
                     process of building and
                   </p>
                 </h3>
-                <div class="button132">
+                <div class="button132" id="readMoreMachineLearning">
                   <b class="button133">READ MORE</b>
                   <img
                     class="arrow-icon74"
@@ -285,7 +285,7 @@
                   national archives, corporate records and registers in any
                   language, age or condition.
                 </h3>
-                <div class="button134">
+                <div class="button134" id="readMoreGenealogy">
                   <b class="button135">READ MORE</b>
                   <img
                     class="arrow-icon75"
@@ -318,7 +318,7 @@
                   spans the globe, we offer solutions in over 50 language
                   capabilities.
                 </h3>
-                <div class="button136">
+                <div class="button136"  id="readMoreNaturalLanguageProcessing">
                   <b class="button137">READ MORE</b>
                   <img
                     class="arrow-icon76"
@@ -349,7 +349,7 @@
                   effective route for institution to deliver personalized,
                   proactive experiences that drive customer engagement.
                 </h3>
-                <div class="button138">
+                <div class="button138" id="readMoreCustomerService">
                   <b class="button139">READ MORE</b>
                   <img
                     class="arrow-icon77"
@@ -380,7 +380,7 @@
                   annotation to classification and more, for video and image
                   datasets.
                 </h3>
-                <div class="button140">
+                <div class="button140" id="readMoreComputerVision">
                   <b class="button141">READ MORE</b>
                   <img
                     class="arrow-icon78"
@@ -411,7 +411,7 @@
                   especially true of our contribution to the development of
                   Autonomous Driving Technology.
                 </h3>
-                <div class="button142">
+                <div class="button142" id="readMoreAutonomousDriving">
                   <b class="button143">READ MORE</b>
                   <img
                     class="arrow-icon79"
@@ -641,6 +641,27 @@
           window.location.href = "./ch";
         });
       }
+
+var buttonToPageMap = {
+  'readMoreDataExtraction': './data-extraction.html',
+  'readMoreMachineLearning': './m-l.html',
+  'readMoreGenealogy': './genealogy.html',
+  'readMoreNaturalLanguageProcessing': './language-processing.html',
+  'readMoreCustomerService': './customer-service.html',
+  'readMoreComputerVision': './computer-vision.html',
+  'readMoreAutonomousDriving': './autonomous-driving.html',
+};
+
+// Adding event listeners for each "Read More" button
+Object.keys(buttonToPageMap).forEach(function(buttonId) {
+  var button = document.getElementById(buttonId);
+  if (button) {
+    button.addEventListener('click', function() {
+      window.location.href = buttonToPageMap[buttonId];
+    });
+  }
+});
+
       </script>
   </body>
 </html>

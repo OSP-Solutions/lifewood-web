@@ -188,7 +188,7 @@
                 <h3 class="data-acquisition68">
                   使用AI，我们优化了从多个来源获取图像和文本的过程。技术包括现场扫描、无人机摄影、与档案馆的谈判以及与企业、宗教组织和政府形成联盟。
                 </h3>
-                <div class="button489">
+                <div class="button489" id="readMoreDataExtraction">
                   <b class="button490">阅读更多</b>
                   <img
                     class="arrow-icon236"
@@ -213,7 +213,7 @@
                 <h3 class="data-acquisition70">
                   从简单数据到深度学习，无论模型多么复杂，我们的解决方案高度灵活，能够支持各种机器学习（ML）系统。活树科技的专业知识加速了构建和实现您的AI模型的过程。
                 </h3>
-                <div class="button491">
+                <div class="button491" id="readMoreMachineLearning">
                   <b class="button492">阅读更多</b>
                   <img
                     class="arrow-icon237"
@@ -238,7 +238,7 @@
                 <h3 class="data-acquisition72">
                   借助AI技术，活树科技能够快速大规模地处理家谱材料，以保存和阐明家族史、国家档案、企业记录在任何语言、年代或状况下的登记册。
                 </h3>
-                <div class="button493">
+                <div class="button493" id="readMoreGenealogy">
                   <b class="button494">阅读更多</b>
                   <img
                     class="arrow-icon238"
@@ -263,7 +263,7 @@
                 <h3 class="data-acquisition74">
                   我们已与世界上一些最先进的自然语言处理（NLP）开发公司建立了合作伙伴关系。通过一个遍布全球的管理劳动力，我们提供超过50种语言能力的解决方案。
                 </h3>
-                <div class="button495">
+                <div class="button495" id="readMoreNaturalLanguageProcessing">
                   <b class="button496">阅读更多</b>
                   <img
                     class="arrow-icon239"
@@ -288,7 +288,7 @@
                 <h3 class="data-acquisition76">
                   AI赋能的客服现已成为机构提供个性化、主动体验以驱动客户参与度的最快捷和最有效的途径。
                 </h3>
-                <div class="button497">
+                <div class="button497" id="readMoreCustomerService">
                   <b class="button498">阅读更多</b>
                   <img
                     class="arrow-icon240"
@@ -313,7 +313,7 @@
                 <h3 class="data-acquisition78">
                   训练AI识别和理解世界需要大量的高质量训练数据。活树科技为您的计算机视觉（CV）开发提供全面的数据解决方案，从数据收集到注释、归类等，适用于视频和图像数据集。
                 </h3>
-                <div class="button499">
+                <div class="button499" id="readMoreComputerVision">
                   <b class="button500">阅读更多</b>
                   <img
                     class="arrow-icon241"
@@ -338,7 +338,7 @@
                 <h3 class="data-acquisition80">
                   在活树科技，创新不断推动我们向前发展。这在我们对自动驾驶技术的发展贡献中尤为突出。
                 </h3>
-                <div class="button501">
+                <div class="button501" id="readMoreAutonomousDriving">
                   <b class="button502">阅读更多</b>
                   <img
                     class="arrow-icon242"
@@ -498,6 +498,26 @@
           window.location.href = "../";
         });
       }
+
+var buttonToPageMap = {
+  'readMoreDataExtraction': './data-extraction1.html',
+  'readMoreMachineLearning': './m-l1.html',
+  'readMoreGenealogy': './genealogy1.html',
+  'readMoreNaturalLanguageProcessing': './language-processing1.html',
+  'readMoreCustomerService': './customer-service1.html',
+  'readMoreComputerVision': './computer-vision1.html',
+  'readMoreAutonomousDriving': './autonomous-driving1.html',
+};
+
+// Adding event listeners for each "Read More" button
+Object.keys(buttonToPageMap).forEach(function(buttonId) {
+  var button = document.getElementById(buttonId);
+  if (button) {
+    button.addEventListener('click', function() {
+      window.location.href = buttonToPageMap[buttonId];
+    });
+  }
+});
       </script>
   </body>
 </html>
