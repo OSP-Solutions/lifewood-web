@@ -40,7 +40,7 @@
           <div class="nav-item15">
             <div class="main15">
               <div class="button416" id="buttonContainer0">
-                <div class="button417">Ai Data Services</div>
+                <div class="button417">Services</div>
                 <img
                   class="arrow-icon200"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="button418" id="buttonContainer1">
-                <div class="button419">Ai Projects</div>
+                <div class="button419">Projects</div>
                 <img
                   class="arrow-icon201"
                   alt=""
@@ -147,12 +147,11 @@
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
             <b class="hong-kong-4-10th-container15">
-              <span>Hong Kong, 4-10</span>
-              <span class="th15">th </span>
-              <span>April 024, Lifewood Innovation Lab Facility</span>
+              <span>Hong Kong, 4-10<sup>th</sup></span>
+              <span>April 2024, Lifewood Innovation Lab Facility</span>
             </b>
           </div>
-          <div class="youtube45">
+          <div class="youtube45 cursor-pointer" onclick="goToyoutubeChannel()">
             <img
               class="youtube-icon15"
               loading="lazy"
@@ -240,9 +239,9 @@
             <div class="map45">
               <b class="menu14">MENU:</b>
               <div class="ai-data-services15" id="aIDataServices">
-                AI Data Services
+                Services
               </div>
-              <div class="ai-projects15" id="aIProjectsText">AI Projects</div>
+              <div class="ai-projects15" id="aIProjectsText">Projects</div>
               <div class="transformation14" id="transformationText">
                 Transformation
               </div>
@@ -254,15 +253,15 @@
             </div>
             <div class="map46">
               <b class="language24">LANGUAGE</b>
-              <div class="english14">English</div>
-              <div class="chinese14">Chinese</div>
+              <div class="english14 cursor-pointer" id="englishText">English</div>
+              <div class="chinese14 cursor-pointer" id="chineseText">Chinese</div>
             </div>
             <div class="map47">
               <b class="follow-us14">FOLLOW US</b>
               <div class="linkedin15">LinkedIn</div>
               <div class="facebook14">Facebook</div>
               <div class="instagram16">Instagram</div>
-              <div class="youtube47">Youtube</div>
+              <div class="youtube47 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
             </div>
           </div>
         </div>
@@ -270,6 +269,9 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -385,6 +387,20 @@
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
+        });
+      }
+
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

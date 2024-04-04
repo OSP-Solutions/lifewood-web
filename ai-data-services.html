@@ -40,7 +40,7 @@
           <div class="nav-item2">
             <div class="main2">
               <button class="button76" id="button">
-                <div class="button77">Ai Data Services</div>
+                <div class="button77">Services</div>
                 <img
                   class="chevron-down-icon6"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </button>
               <div class="button78" id="buttonContainer0">
-                <div class="button79">Ai Projects</div>
+                <div class="button79">Projects</div>
                 <img
                   class="arrow-icon46"
                   alt=""
@@ -143,12 +143,11 @@
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
             <b class="hong-kong-4-10th-container2">
-              <span>Hong Kong, 4-10</span>
-              <span class="th2">th </span>
-              <span>April 024, Lifewood Innovation Lab Facility</span>
+              <span>Hong Kong, 4-10<sup>th</sup></span>
+              <span>April 2024, Lifewood Innovation Lab Facility</span>
             </b>
           </div>
-          <div class="youtube6">
+          <div class="youtube6 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
               class="youtube-icon2"
               loading="lazy"
@@ -170,7 +169,7 @@
             <h2 class="at-lifewood-we11">
               Lifewood provides AI data collection services for multiple
               industries, enabling clients to make better decisions, reduce
-              overall coats and increase productivity, optimizing organizational
+              overall costs and increase productivity, optimizing organizational
               goals.
             </h2>
             <div class="right5">
@@ -336,7 +335,7 @@
                   <div class="conditional-tree">
                     <h1 class="constant-innovation-unlimited3">
                       WE LAUNCH NEW VENTURES AND LEVERAGE TECHNOLOGY FOR DYNAMIC
-                      BUSINESS OPPORTUNIES AND IMPROVED PERFORMANCE
+                      BUSINESS OPPORTUNITES AND IMPROVED PERFORMANCE
                     </h1>
                     <b class="a-wide-variety-container5">
                       <p class="a-wide-variety6">A wide variety of services</p>
@@ -349,7 +348,7 @@
                 </div>
               </div>
             </div>
-            <div class="button100">
+            <div class="button100 cursor-pointer" onclick="goToYoutubeVideo()">
               <div class="button101">WATCH VIDEO</div>
               <img
                 class="chevron-down-icon7"
@@ -358,6 +357,7 @@
               />
             </div>
           </div>
+        <iframe id="ytVideo" src="https://www.youtube.com/embed/9LjMAJrOirU?si=xPrSSV1s4OLwKpRt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="be-amazed7">
             <img
               class="diamond-icon5"
@@ -666,10 +666,10 @@
                 <div class="map6">
                   <b class="menu1">MENU:</b>
                   <div class="ai-data-services2" id="aIDataServices">
-                    AI Data Services
+                    Services
                   </div>
                   <div class="ai-projects1" id="aIProjectsText">
-                    AI Projects
+                    Projects
                   </div>
                   <div class="transformation1" id="transformationText">
                     Transformation
@@ -684,15 +684,15 @@
                 </div>
                 <div class="map7">
                   <b class="language2">LANGUAGE</b>
-                  <div class="english1">English</div>
-                  <div class="chinese1">Chinese</div>
+                  <div class="english1 cursor-pointer" id="englishText">English</div>
+                  <div class="chinese1 cursor-pointer" id="chineseText">Chinese</div>
                 </div>
                 <div class="map8">
                   <b class="follow-us1">FOLLOW US</b>
                   <div class="linkedin2">LinkedIn</div>
                   <div class="facebook1">Facebook</div>
                   <div class="instagram2">Instagram</div>
-                  <div class="youtube8">Youtube</div>
+                  <div class="youtube8 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
                 </div>
               </div>
             </div>
@@ -702,6 +702,13 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
+
+      function goToYoutubeVideo() {
+        window.location.href = "https://www.youtube.com/watch?v=9LjMAJrOirU"
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -811,6 +818,20 @@
       if (careersText) {
         careersText.addEventListener("click", function (e) {
           window.location.href = "./careers.html";
+        });
+      }
+
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

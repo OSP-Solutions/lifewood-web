@@ -40,7 +40,7 @@
           <div class="nav-item8">
             <div class="main8">
               <div class="button246" id="buttonContainer0">
-                <div class="button247">Ai Data Services</div>
+                <div class="button247">Services</div>
                 <img
                   class="arrow-icon124"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="button248" id="buttonContainer1">
-                <div class="button249">Ai Projects</div>
+                <div class="button249">Projects</div>
                 <img
                   class="arrow-icon125"
                   alt=""
@@ -149,9 +149,8 @@
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
             <b class="hong-kong-4-10th-container8">
-              <span>Hong Kong, 4-10</span>
-              <span class="th8">th </span>
-              <span>April 024, Lifewood Innovation Lab Facility</span>
+              <span>Hong Kong, 4-10<sup>th</sup></span>
+              <span>April 2024, Lifewood Innovation Lab Facility</span>
             </b>
           </div>
           <div class="youtube24">
@@ -191,7 +190,7 @@
                 and
               </p>
               <p class="your-business-to10">
-                your business to greater heights?
+                your business to greater heights!
               </p>
             </div>
           </div>
@@ -219,7 +218,7 @@
                   </div>
                 </div>
                 <div class="box22">
-                  <b class="b24">14</b>
+                  <b class="b24">16</b>
                   <div class="countries-on-4-container4">
                     <p class="countries-on4">COUNTRIES ON</p>
                     <p class="continents4">4 CONTINENTS</p>
@@ -242,7 +241,7 @@
             </div>
             <div class="lifewood-active-in-container4">
               <p class="lifewood-active-in5">
-                Lifewood, active in 14 countries from locations as diverse
+                Lifewood, active in 16 countries from locations as diverse
               </p>
               <p class="as-benin-and4">
                 as Benin and Britain, Singapore and Seattle, drives ever
@@ -356,7 +355,7 @@
                       life and
                     </p>
                     <p class="your-business-to11">
-                      your business to greater heights?
+                      your business to greater heights!
                     </p>
                   </div>
                 </div>
@@ -544,9 +543,9 @@
               <div class="map24">
                 <b class="menu7">MENU:</b>
                 <div class="ai-data-services8" id="aIDataServices">
-                  AI Data Services
+                  Services
                 </div>
-                <div class="ai-projects8" id="aIProjectsText">AI Projects</div>
+                <div class="ai-projects8" id="aIProjectsText">Projects</div>
                 <div class="transformation7" id="transformationText">
                   Transformation
                 </div>
@@ -558,15 +557,15 @@
               </div>
               <div class="map25">
                 <b class="language12">LANGUAGE</b>
-                <div class="english7">English</div>
-                <div class="chinese7">Chinese</div>
+                <div class="english7 cursor-pointer" id="englishText">English</div>
+                <div class="chinese7 cursor-pointer" id="chineseText">Chinese</div>
               </div>
               <div class="map26">
                 <b class="follow-us7">FOLLOW US</b>
                 <div class="linkedin8">LinkedIn</div>
                 <div class="facebook7">Facebook</div>
                 <div class="instagram8">Instagram</div>
-                <div class="youtube26">Youtube</div>
+                <div class="youtube26 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
               </div>
             </div>
           </div>
@@ -575,6 +574,9 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -690,6 +692,19 @@
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
+        });
+      }
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

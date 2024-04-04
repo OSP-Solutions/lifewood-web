@@ -27,11 +27,13 @@
   gap: var(--gap-xs);
   min-width: 118px;
   cursor: pointer;
+  font-size: var(--font-size-3xl);
 }
 .button177 {
   position: relative;
   display: inline-block;
   min-width: 99px;
+  text-align: center;
   white-space: nowrap;
 }
 .arrow-icon93 {
@@ -49,6 +51,7 @@
   padding: var(--padding-4xs) var(--padding-base);
   gap: var(--gap-xs);
   cursor: pointer;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon94,
 .button179 {
@@ -71,6 +74,7 @@
   gap: var(--gap-xs);
   min-width: 111px;
   cursor: pointer;
+  font-size: var(--font-size-3xl);
 }
 .button181 {
   position: relative;
@@ -93,6 +97,7 @@
   padding: var(--padding-4xs) var(--padding-base);
   gap: var(--gap-xs);
   cursor: pointer;
+  font-size: var(--font-size-3xl);
 }
 .button183 {
   position: relative;
@@ -115,6 +120,7 @@
   padding: var(--padding-4xs) var(--padding-base);
   gap: var(--gap-xs);
   cursor: pointer;
+  font-size: var(--font-size-3xl);
 }
 .button185 {
   position: relative;
@@ -124,6 +130,7 @@
   text-align: left;
   display: inline-block;
   min-width: 71px;
+  font-size: var(--font-size-3xl);
 }
 .chevron-down-icon15 {
   height: 5.7px;

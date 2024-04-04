@@ -40,7 +40,7 @@
           <div class="nav-item5">
             <div class="main5">
               <div class="button174" id="buttonContainer0">
-                <div class="button175">Ai Data Services</div>
+                <div class="button175">Services</div>
                 <img
                   class="arrow-icon92"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="button176" id="buttonContainer1">
-                <div class="button177">Ai Projects</div>
+                <div class="button177">Projects</div>
                 <img
                   class="arrow-icon93"
                   alt=""
@@ -147,12 +147,11 @@
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
             <b class="hong-kong-4-10th-container5">
-              <span>Hong Kong, 4-10</span>
-              <span class="th5">th </span>
-              <span>April 024, Lifewood Innovation Lab Facility</span>
+              <span>Hong Kong, 4-10<sup>th</sup></span>
+              <span>April 2024, Lifewood Innovation Lab Facility</span>
             </b>
           </div>
-          <div class="youtube15">
+          <div class="youtube15 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
               class="youtube-icon5"
               loading="lazy"
@@ -205,7 +204,7 @@
                 Harness the technology of the future: bring your data to life
                 and
               </p>
-              <p class="your-business-to4">your business to greater heights?</p>
+              <p class="your-business-to4">your business to greater heights!</p>
             </div>
           </div>
         </div>
@@ -232,7 +231,7 @@
                   </div>
                 </div>
                 <div class="box10">
-                  <b class="b12">14</b>
+                  <b class="b12">16</b>
                   <div class="countries-on-4-container1">
                     <p class="countries-on1">COUNTRIES ON</p>
                     <p class="continents1">4 CONTINENTS</p>
@@ -255,7 +254,7 @@
             </div>
             <div class="lifewood-active-in-container1">
               <p class="lifewood-active-in2">
-                Lifewood, active in 14 countries from locations as diverse
+                Lifewood, active in 16 countries from locations as diverse
               </p>
               <p class="as-benin-and1">
                 as Benin and Britain, Singapore and Seattle, drives ever
@@ -328,7 +327,7 @@
             <div class="frame-parent4">
               <div class="always-on-never-off-parent">
                 <h1 class="always-on-never">ALWAYS ON, NEVER OFF</h1>
-                <div class="button194">
+                <div class="button194 cursor-pointer" id="buttonContactUs">
                   <div class="button195">CONTACT US</div>
                   <div class="arrow-wrapper">
                     <img
@@ -370,7 +369,7 @@
                       life and
                     </p>
                     <p class="your-business-to5">
-                      your business to greater heights?
+                      your business to greater heights!
                     </p>
                   </div>
                 </div>
@@ -422,9 +421,9 @@
               <div class="map15">
                 <b class="menu4">MENU:</b>
                 <div class="ai-data-services5" id="aIDataServices">
-                  AI Data Services
+                  Services
                 </div>
-                <div class="ai-projects5" id="aIProjectsText">AI Projects</div>
+                <div class="ai-projects5" id="aIProjectsText">Projects</div>
                 <div class="transformation4" id="transformationText">
                   Transformation
                 </div>
@@ -436,15 +435,15 @@
               </div>
               <div class="map16">
                 <b class="language6">LANGUAGE</b>
-                <div class="english4">English</div>
-                <div class="chinese4">Chinese</div>
+                <div class="english4 cursor-pointer" id="englishText">English</div>
+                <div class="chinese4 cursor-pointer" id="chineseText">Chinese</div>
               </div>
               <div class="map17">
                 <b class="follow-us4">FOLLOW US</b>
                 <div class="linkedin5">LinkedIn</div>
                 <div class="facebook4">Facebook</div>
                 <div class="instagram5">Instagram</div>
-                <div class="youtube17">Youtube</div>
+                <div class="youtube17 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
               </div>
             </div>
           </div>
@@ -453,6 +452,9 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -460,7 +462,7 @@
         });
       }
       
-      var buttonContainer = document.getElementById("buttonContainer");
+      var buttonContainer = document.getElementById("buttonContainer0");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
           window.location.href = "./ai-data-services.html";
@@ -508,6 +510,13 @@
           window.location.href = "./contact.html";
         });
       }
+
+      var button1 = document.getElementById("buttonContactUs");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
       
       var logo = document.getElementById("logo");
       if (logo) {
@@ -526,7 +535,7 @@
       var aIDataServices = document.getElementById("aIDataServices");
       if (aIDataServices) {
         aIDataServices.addEventListener("click", function (e) {
-          window.location.href = "home-page1.html";
+          window.location.href = "./ai-data-services.html";
         });
       }
       
@@ -568,6 +577,20 @@
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
+        });
+      }
+
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

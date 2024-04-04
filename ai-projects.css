@@ -9,6 +9,7 @@
 .button115 {
   position: relative;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon66 {
   height: 15.9px;
@@ -29,13 +30,13 @@
 }
 .button117 {
   position: relative;
-  font-size: var(--font-size);
   font-family: var(--font);
   color: var(--black);
-  text-align: left;
+  text-align: center;
   display: inline-block;
   min-width: 99px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .chevron-down-icon9 {
   height: 5.7px;
@@ -61,6 +62,7 @@
 .arrow-icon67,
 .button119 {
   position: relative;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon67 {
   height: 15.9px;
@@ -83,6 +85,7 @@
   display: inline-block;
   min-width: 115px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon68 {
   height: 15.9px;
@@ -105,6 +108,7 @@
   display: inline-block;
   min-width: 129px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon69 {
   height: 15.9px;
@@ -126,6 +130,7 @@
   position: relative;
   display: inline-block;
   min-width: 71px;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon70 {
   height: 15.9px;

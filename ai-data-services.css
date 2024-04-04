@@ -8,7 +8,7 @@
 }
 .button77 {
   position: relative;
-  font-size: var(--font-size);
+  font-size: var(--font-size-3xl);
   font-family: var(--font);
   color: var(--black);
   text-align: left;
@@ -39,7 +39,9 @@
 .button79 {
   position: relative;
   display: inline-block;
+  font-size: var(--font-size-3xl);
   min-width: 99px;
+  text-align: center;
   white-space: nowrap;
 }
 .arrow-icon46 {
@@ -61,6 +63,7 @@
 .arrow-icon47,
 .button81 {
   position: relative;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon47 {
   height: 15.9px;
@@ -83,6 +86,7 @@
   display: inline-block;
   min-width: 115px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon48 {
   height: 15.9px;
@@ -105,6 +109,7 @@
   display: inline-block;
   min-width: 129px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon49 {
   height: 15.9px;
@@ -126,6 +131,7 @@
   position: relative;
   display: inline-block;
   min-width: 71px;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon50 {
   height: 15.9px;
@@ -503,6 +509,7 @@
   max-width: 100%;
 }
 .frame-child3 {
+  margin-top: 5px;
   align-self: stretch;
   height: 12px;
   position: relative;
@@ -820,7 +827,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   max-width: 100%;
   gap: var(--gap-xl);
@@ -2401,4 +2408,12 @@
   .sitemap2 {
     gap: 64px 16px;
   }
+}
+#ytVideo {
+  left: 1200px;
+  width: 30%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  right: 50%;
 }

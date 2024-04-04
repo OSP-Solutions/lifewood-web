@@ -40,7 +40,7 @@
           <div class="nav-item13">
             <div class="main13">
               <div class="button374" id="buttonContainer0">
-                <div class="button375">Ai Data Services</div>
+                <div class="button375">Services</div>
                 <img
                   class="arrow-icon183"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="button376" id="buttonContainer1">
-                <div class="button377">Ai Projects</div>
+                <div class="button377">Projects</div>
                 <img
                   class="arrow-icon184"
                   alt=""
@@ -148,12 +148,11 @@
                 >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
               >
               <b class="hong-kong-4-10th-container13">
-                <span>Hong Kong, 4-10</span>
-                <span class="th13">th </span>
-                <span>April 024, Lifewood Innovation Lab Facility</span>
+                <span>Hong Kong, 4-10<sup>th</sup></span>
+                <span>April 2024, Lifewood Innovation Lab Facility</span>
               </b>
             </div>
-            <div class="youtube39">
+            <div class="youtube39 cursor-pointer" onclick="goToYoutubeChannel()">
               <img
                 class="youtube-icon13"
                 loading="lazy"
@@ -189,7 +188,7 @@
                   and
                 </p>
                 <p class="your-business-to20">
-                  your business to greater heights?
+                  your business to greater heights!
                 </p>
               </div>
             </div>
@@ -226,7 +225,7 @@
                 <h1 class="constant-innovation-unlimited6">
                   LIFEWOOD TRANSFORMATION
                 </h1>
-                <div class="button390">
+                <div class="button390 cursor-pointer" id="buttonAskOurExperts">
                   <div class="button391">ASK OUR EXPERTS</div>
                   <div class="arrow-wrapper3">
                     <img
@@ -268,7 +267,7 @@
                       life and
                     </p>
                     <p class="your-business-to21">
-                      your business to greater heights?
+                      your business to greater heights!
                     </p>
                   </div>
                 </div>
@@ -301,7 +300,7 @@
             <div class="frame-parent18">
               <div class="transformation-is-more-parent">
                 <h1 class="transformation-is-more">TRANSFORMATION IS MORE</h1>
-                <div class="button392">
+                <div class="button392 cursor-pointer" id="buttonAskOurExperts1">
                   <div class="button393">ASK OUR EXPERTS</div>
                   <div class="arrow-wrapper4">
                     <img
@@ -351,7 +350,7 @@
                       life and
                     </p>
                     <p class="your-business-to22">
-                      your business to greater heights?
+                      your business to greater heights!
                     </p>
                   </div>
                 </div>
@@ -403,9 +402,9 @@
               <div class="map39">
                 <b class="menu12">MENU:</b>
                 <div class="ai-data-services13" id="aIDataServices">
-                  AI Data Services
+                  Services
                 </div>
-                <div class="ai-projects13" id="aIProjectsText">AI Projects</div>
+                <div class="ai-projects13" id="aIProjectsText">Projects</div>
                 <div class="transformation12" id="transformationText">
                   Transformation
                 </div>
@@ -417,15 +416,15 @@
               </div>
               <div class="map40">
                 <b class="language21">LANGUAGE</b>
-                <div class="english12">English</div>
-                <div class="chinese12">Chinese</div>
+                <div class="english12 cursor-pointer" id="englishText">English</div>
+                <div class="chinese12 cursor-pointer" id="chineseText">Chinese</div>
               </div>
               <div class="map41">
                 <b class="follow-us12">FOLLOW US</b>
                 <div class="linkedin13">LinkedIn</div>
                 <div class="facebook12">Facebook</div>
                 <div class="instagram14">Instagram</div>
-                <div class="youtube41">Youtube</div>
+                <div class="youtube41 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
               </div>
             </div>
           </div>
@@ -434,6 +433,9 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -484,6 +486,20 @@
       }
       
       var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts1");
       if (button1) {
         button1.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
@@ -549,6 +565,19 @@
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
+        });
+      }
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

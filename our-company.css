@@ -8,6 +8,7 @@
 .button147 {
   position: relative;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon80 {
   height: 15.9px;
@@ -29,10 +30,12 @@
   cursor: pointer;
 }
 .button149 {
+  text-align: center;
   position: relative;
   display: inline-block;
   min-width: 99px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon81 {
   height: 15.9px;
@@ -53,6 +56,7 @@
 .arrow-icon82,
 .button151 {
   position: relative;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon82 {
   height: 15.9px;
@@ -77,6 +81,7 @@
   display: inline-block;
   min-width: 115px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon83 {
   height: 15.9px;
@@ -96,7 +101,7 @@
 }
 .button155 {
   position: relative;
-  font-size: var(--font-size);
+  font-size: var(--font-size-3xl);
   font-family: var(--font);
   color: var(--black);
   text-align: left;
@@ -129,6 +134,7 @@
   position: relative;
   display: inline-block;
   min-width: 71px;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon84 {
   height: 15.9px;

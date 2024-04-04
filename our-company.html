@@ -40,7 +40,7 @@
           <div class="nav-item4">
             <div class="main4">
               <div class="button146" id="buttonContainer0">
-                <div class="button147">Ai Data Services</div>
+                <div class="button147">Services</div>
                 <img
                   class="arrow-icon80"
                   alt=""
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="button148" id="buttonContainer1">
-                <div class="button149">Ai Projects</div>
+                <div class="button149">Projects</div>
                 <img
                   class="arrow-icon81"
                   alt=""
@@ -147,12 +147,11 @@
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
             <b class="hong-kong-4-10th-container4">
-              <span>Hong Kong, 4-10</span>
-              <span class="th4">th </span>
-              <span>April 024, Lifewood Innovation Lab Facility</span>
+              <span>Hong Kong, 4-10<sup>th</sup></span>
+              <span>April 2024, Lifewood Innovation Lab Facility</span>
             </b>
           </div>
-          <div class="youtube12">
+          <div class="youtube12 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
               class="youtube-icon4"
               loading="lazy"
@@ -199,7 +198,7 @@
                   and
                 </p>
                 <p class="your-business-to1">
-                  your business to greater heights?
+                  your business to greater heights!
                 </p>
               </div>
             </div>
@@ -396,7 +395,7 @@
                 <p class="the-lifewood-difference">THE LIFEWOOD DIFFERENCE</p>
               </h1>
               <div class="language-selector">
-                <div class="button170">
+                <div class="button170 cursor-pointer" id="buttonContactUs">
                   <b class="button171">CONTACT US</b>
                   <div class="map-container">
                     <img
@@ -480,7 +479,7 @@
                     life and
                   </p>
                   <p class="your-business-to2">
-                    your business to greater heights?
+                    your business to greater heights!
                   </p>
                 </div>
               </div>
@@ -566,7 +565,7 @@
                     life and
                   </p>
                   <p class="your-business-to3">
-                    your business to greater heights?
+                    your business to greater heights!
                   </p>
                 </div>
               </div>
@@ -617,9 +616,9 @@
               <div class="map12">
                 <b class="menu3">MENU:</b>
                 <div class="ai-data-services4" id="aIDataServices">
-                  AI Data Services
+                  Services
                 </div>
-                <div class="ai-projects4" id="aIProjectsText">AI Projects</div>
+                <div class="ai-projects4" id="aIProjectsText">Projects</div>
                 <div class="transformation3" id="transformationText">
                   Transformation
                 </div>
@@ -631,15 +630,15 @@
               </div>
               <div class="map13">
                 <b class="language4">LANGUAGE</b>
-                <div class="english3">English</div>
-                <div class="chinese3">Chinese</div>
+                <div class="english3 cursor-pointer" id="englishText">English</div>
+                <div class="chinese3 cursor-pointer" id="chineseText">Chinese</div>
               </div>
               <div class="map14">
                 <b class="follow-us3">FOLLOW US</b>
                 <div class="linkedin4">LinkedIn</div>
                 <div class="facebook3">Facebook</div>
                 <div class="instagram4">Instagram</div>
-                <div class="youtube14">Youtube</div>
+                <div class="youtube14 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
               </div>
             </div>
           </div>
@@ -648,6 +647,9 @@
     </div>
 
     <script>
+      function goToYoutubeChannel() {
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology";
+      }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
         lifewood.addEventListener("click", function (e) {
@@ -698,6 +700,13 @@
       }
       
       var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonContactUs");
       if (button1) {
         button1.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
@@ -763,6 +772,19 @@
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
+        });
+      }
+      var englishText = document.getElementById("englishText");
+      if (englishText) {
+        englishText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+
+      var chineseText = document.getElementById("chineseText");
+      if (chineseText) {
+        chineseText.addEventListener("click", function (e) {
+          window.location.href = "/ch/index.html";
         });
       }
       </script>

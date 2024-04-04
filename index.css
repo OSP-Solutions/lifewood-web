@@ -9,6 +9,7 @@
 .button39 {
   position: relative;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon23 {
   height: 15.9px;
@@ -31,7 +32,9 @@
   position: relative;
   display: inline-block;
   min-width: 99px;
+  text-align: center;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon24 {
   height: 15.9px;
@@ -52,6 +55,7 @@
 .arrow-icon25,
 .button43 {
   position: relative;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon25 {
   height: 15.9px;
@@ -74,6 +78,7 @@
   display: inline-block;
   min-width: 115px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon26 {
   height: 15.9px;
@@ -96,6 +101,7 @@
   display: inline-block;
   min-width: 129px;
   white-space: nowrap;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon27 {
   height: 15.9px;
@@ -117,6 +123,7 @@
   position: relative;
   display: inline-block;
   min-width: 71px;
+  font-size: var(--font-size-3xl);
 }
 .arrow-icon28 {
   height: 15.9px;
@@ -1450,16 +1457,17 @@
   align-items: center;
 }
 .data1 {
-  align-self: stretch;
+  align-self: auto;
   overflow: hidden;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 0 var(--padding-267xl) 0 0;
+  justify-content: space-evenly;
+  padding: 0 0 0 0;
   box-sizing: border-box;
   gap: 32px 254px;
   min-height: 863px;
   max-width: 100%;
+  width: 100%;
   font-size: var(--font-size-29xl);
   color: var(--black);
 }

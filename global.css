@@ -206,3 +206,7 @@ p{
   --br-5xs: 8px;
   --br-base: 16px;
 }
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
