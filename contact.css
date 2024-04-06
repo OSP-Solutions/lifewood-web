@@ -250,10 +250,11 @@
 .future-power15 {
   margin: 0;
   align-self: stretch;
-  height: 114px;
+  height: 141px;
   position: relative;
-  font-size: inherit;
-  font-weight: 700;
+  font-size: 200px;
+  font-weight: bold;
+  letter-spacing: 16px;
   font-family: inherit;
   display: inline-block;
 }
@@ -346,6 +347,7 @@
 .news15 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -823,12 +825,12 @@
   box-sizing: border-box;
 }
 .map47 {
-  flex: 0.7533;
+  width: 200px;
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 0;
+  align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap-components-parent,
 .sitemap18 {
@@ -836,7 +838,7 @@
   flex-wrap: wrap;
 }
 .sitemap18 {
-  width: 1302px;
+  width: 1402px;
   flex-shrink: 0;
   justify-content: flex-start;
   padding: 0 var(--padding-705xl) 0 0;

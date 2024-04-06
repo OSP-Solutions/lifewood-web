@@ -23,6 +23,18 @@
         font-weight: 700;
       }
     </style>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
   </head>
   <body>
     <script href="./global.js" type="text/javascript"></script>
@@ -148,10 +160,6 @@
             <b class="exclusive-coverage-from1"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container1">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube3 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
@@ -742,14 +750,19 @@
               </div>
               <div class="map5">
                 <b class="follow-us">FOLLOW US</b>
-                <div class="linkedin1">LinkedIn</div>
-                <div class="facebook">Facebook</div>
-                <div class="instagram1">Instagram</div>
-                <div
-                  class="youtube5 cursor-pointer"
-                  onclick="goToYoutubeChannel()"
-                >
-                  Youtube
+                <div class="youtube3 cursor-pointer" onclick="goToYoutubeChannel()">
+                  <img
+                    class="youtube-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube@2x.png"
+                  />
+      
+                  <b class="lifewood-youtube-channel-container1">
+                    <p class="lifewood1">LIFEWOOD</p>
+                    <p class="youtube4">YOUTUBE</p>
+                    <p class="channel1">CHANNEL</p>
+                  </b>
                 </div>
               </div>
             </div>

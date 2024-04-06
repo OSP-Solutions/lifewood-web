@@ -148,10 +148,6 @@
             <b class="exclusive-coverage-from7"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container7">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube21 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
@@ -311,7 +307,7 @@
                 <h1 class="data-extraction-technology1">
                   DATA EXTRACTION TECHNOLOGY
                 </h1>
-                <div class="button242">
+                <div class="button242 cursor-pointer" id="buttonAskOurExperts">
                   <b class="button243">ASK OUR EXPERTS</b>
                   <div class="arrow-container">
                     <img
@@ -423,10 +419,20 @@
               </div>
               <div class="map23">
                 <b class="follow-us6">FOLLOW US</b>
-                <div class="linkedin7">LinkedIn</div>
-                <div class="facebook6">Facebook</div>
-                <div class="instagram7">Instagram</div>
-                <div class="youtube23 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
+                <div class="youtube21 cursor-pointer" onclick="goToYoutubeChannel()">
+                  <img
+                    class="youtube-icon7"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube@2x.png"
+                  />
+      
+                  <b class="lifewood-youtube-channel-container7">
+                    <p class="lifewood7">LIFEWOOD</p>
+                    <p class="youtube22">YOUTUBE</p>
+                    <p class="channel7">CHANNEL</p>
+                  </b>
+                </div>
               </div>
             </div>
           </div>
@@ -566,6 +572,13 @@
       if (chineseText) {
         chineseText.addEventListener("click", function (e) {
           window.location.href = "/ch/index.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
         });
       }
       </script>

@@ -267,17 +267,19 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power3 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential3 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  letter-spacing: 10.2px;
+  font-size: 60px;
   color: var(--white);
 }
 .future-power-container {
@@ -360,6 +362,7 @@
 .news3 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -1441,9 +1444,7 @@
 }
 .sitemap3 {
   width: 1302px;
-  flex-shrink: 0;
-  justify-content: flex-start;
-  padding: 0 var(--padding-705xl) 0 0;
+  flex-wrap: wrap;
   gap: var(--gap-45xl);
   max-width: 100%;
 }

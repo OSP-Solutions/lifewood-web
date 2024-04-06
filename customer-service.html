@@ -148,10 +148,6 @@
             <b class="exclusive-coverage-from10"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container10">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube30 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
@@ -315,7 +311,7 @@
               <h1 class="ai-enabled-customer-service">
                 AI-ENABLED CUSTOMER SERVICE
               </h1>
-              <div class="button322">
+              <div class="button322 cursor-pointer" id="buttonAskOurExperts">
                 <b class="button323">ASK OUR EXPERTS</b>
                 <div class="arrow-wrapper1">
                   <img
@@ -335,34 +331,20 @@
             </div>
             <div class="frame-child13"></div>
           </div>
-          <div class="two-column-text18">
-            <div class="at-lifewood-we-empower-busine-parent16">
-              <h3 class="at-lifewood-we25">
-                Guided by our experts, AI customer service can transform
-                customer relationships creating an improvd cycle of service,
-                satisfaction and increased customer loyalty. A notable advantage
-                of using an AI customer service platform is the speed of
-                handling customer inquiries.
-              </h3>
-              <div class="right29">
-                <h3 class="this-is-the15">
-                  AI tools reduce response times by automating routine systems,
-                  such as answering FAQ’s or processing simple tasks through
-                  chatbots and intelligent assistants, AI has the distinct
-                  advantage of being able to respond based on the customers
-                  previous conversations. This is a valuable marketing resource
-                  as well as a rout to greater
-                </h3>
-                <div class="harness-the-technology-container16">
-                  <p class="harness-the-technology17">
-                    Harness the technology of the future: bring your data to
-                    life and
-                  </p>
-                  <p class="your-business-to15">
-                    your business to greater heights!
-                  </p>
-                </div>
-              </div>
+          <div class="flex flex-row w-full gap-8 mt-2 ">
+            <div class="flex-grow-1 w-full last-text">
+                We specialise in collecting and transcribing recordings from
+                native speakers. This has involved tens of thousands of
+                conversations, a scale made possible by our expertise in
+                adapting industrial processes and our integration with AI.
+            </div>
+            <div class="flex-grow-1 w-full last-text">
+                We use PBI to track the progress of our daily collection of
+                transciptions and to analyse and improve performance on a
+                constantly evloving basis. Our ability to work on this scale has
+                multiple applications for a diverse number of international
+                clients, across a variety of industries and emerging
+                technologies.
             </div>
           </div>
         </div>
@@ -429,10 +411,20 @@
               </div>
               <div class="map32">
                 <b class="follow-us9">FOLLOW US</b>
-                <div class="linkedin10">LinkedIn</div>
-                <div class="facebook9">Facebook</div>
-                <div class="instagram10">Instagram</div>
-                <div class="youtube32 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
+                <div class="youtube30 cursor-pointer" onclick="goToYoutubeChannel()">
+                  <img
+                    class="youtube-icon10"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube1@2x.png"
+                  />
+      
+                  <b class="lifewood-youtube-channel-container10">
+                    <p class="lifewood10">LIFEWOOD</p>
+                    <p class="youtube31">YOUTUBE</p>
+                    <p class="channel10">CHANNEL</p>
+                  </b>
+                </div>
               </div>
             </div>
           </div>
@@ -510,6 +502,13 @@
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
         });
       }

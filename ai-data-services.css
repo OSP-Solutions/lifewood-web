@@ -255,17 +255,19 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power2 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential2 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  font-size: 60px;
+  letter-spacing: 10.2px;
   color: var(--white);
 }
 .title-bar {
@@ -360,6 +362,7 @@
   box-sizing: border-box;
   gap: var(--gap-xs);
   max-width: 100%;
+  margin-bottom: 10px;
   font-size: var(--font-size-6xl);
 }
 .youtube-icon2 {
@@ -509,9 +512,10 @@
   max-width: 100%;
 }
 .frame-child3 {
-  margin-top: 5px;
+  margin-top: 40px;
   align-self: stretch;
   height: 12px;
+  width: 676px;
   position: relative;
   background-color: var(--yellow);
   overflow: hidden;
@@ -1054,6 +1058,7 @@
 .value-comparator {
   align-self: stretch;
   height: 12px;
+  margin-top: 30px;
   position: relative;
   background-color: var(--yellow);
   overflow: hidden;
@@ -1910,7 +1915,7 @@
   justify-content: flex-start;
 }
 .map8 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

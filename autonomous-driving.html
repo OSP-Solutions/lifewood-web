@@ -148,10 +148,6 @@
             <b class="exclusive-coverage-from12"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container12">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube36 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
@@ -315,8 +311,8 @@
               <h1 class="autonomous-driving-technology">
                 AUTONOMOUS DRIVING TECHNOLOGY
               </h1>
-              <div class="button370">
-                <b class="button371">ASK OUR EXPERTS</b>
+              <div class="button370 cursor-pointer" id="buttonAskOurExperts">
+                <b class="button371 cursor-pointer">ASK OUR EXPERTS</b>
                 <div class="arrow-wrapper2">
                   <img
                     class="arrow-icon182"
@@ -335,42 +331,13 @@
             </div>
             <div class="learn-more-button-child"></div>
           </div>
-          <div class="two-column-text22">
-            <div class="at-lifewood-we-empower-busine-parent20">
-              <h3 class="at-lifewood-we29">
-                We have implemented a diverse mapping methodology, that employs
-                a wide range of data types, including 2D and 3D models, and
-                combinations of both, to create a fully visualized cognitive
-                driving system - giving AI full control of all kinds of driving
-                conditions.
-              </h3>
-              <div class="right35">
-                <h3 class="this-is-the-container5">
-                  <p class="millions-of-images">
-                    Millions of images, video and mapping data have been
-                    annotated, effectively transitioning this technology from
-                    theoretical models to real-world applications - a
-                    significant leap forward for autonomous transport.
-                  </p>
-                  <p class="blank-line2">&nbsp;</p>
-                  <p class="lifewood-remains-at">
-                    Lifewood remains at the forefront of this technology,
-                    pioneering the evolution of safe, efficient autonomous
-                    driving solutions.
-                  </p>
-                </h3>
-                <div class="harness-the-technology-container20">
-                  <p class="harness-the-technology21">
-                    Harness the technology of the future: bring your data to
-                    life and
-                  </p>
-                  <p class="your-business-to19">
-                    your business to greater heights!
-                  </p>
-                </div>
-              </div>
+          <div class="flex flex-row w-full gap-8 mt-2">
+            <div class="flex-grow-1 w-full last-text">
+              We have implemented a diverse mapping methodology, that employs a wide range of data types, including 2D and 3D models, and combinations of both, to create a fully visualised cognitive driving system - giving AI full control of all kinds of driving conditions.
             </div>
-          </div>
+            <div class="flex-grow-1 w-full last-text">
+              Millions of images, videos and mapping data have been annotated, effectively transitioning this technology from theoretical models to real-world applications - a significant leap forward for autonomous transport. <br><br>Lifewood remains at the forefront of this technology, pioneering the evolution of safe, efficient autonomous driving solutions.
+            </div>
         </div>
       </section>
       <footer class="footer12">
@@ -435,10 +402,21 @@
               </div>
               <div class="map38">
                 <b class="follow-us11">FOLLOW US</b>
-                <div class="linkedin12">LinkedIn</div>
-                <div class="facebook11">Facebook</div>
-                <div class="instagram13">Instagram</div>
-                <div class="youtube38 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
+                <div class="youtube36 cursor-pointer" onclick="goToYoutubeChannel()">
+                  <img
+                    class="youtube-icon12"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube1@2x.png"
+                  />
+      
+                  <b class="lifewood-youtube-channel-container12">
+                    <p class="lifewood12">LIFEWOOD</p>
+                    <p class="youtube37">YOUTUBE</p>
+                    <p class="channel12">CHANNEL</p>
+                  </b>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -579,6 +557,13 @@
       if (chineseText) {
         chineseText.addEventListener("click", function (e) {
           window.location.href = "/ch/index.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
         });
       }
       </script>

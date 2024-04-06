@@ -263,17 +263,19 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power14 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential14 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  font-size: 60px;
+  letter-spacing: 10.2px;
   color: var(--white);
 }
 .future-power-parent9 {
@@ -361,6 +363,7 @@
 .news14 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -1014,12 +1017,12 @@
   justify-content: flex-start;
 }
 .map44 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap17 {
   width: 1302px;

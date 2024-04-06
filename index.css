@@ -257,18 +257,22 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
   font-family: inherit;
   display: inline-block;
+  font-weight: bold;
 }
 .future-power1 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  font-family: inherit;
+  letter-spacing: 16px;
+  color: #F9A51A;
 }
 .harnessing-the-potential1 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  font-size: 60px;
   color: var(--white);
+  letter-spacing: 10.2px;
 }
 .future-power-group {
   align-self: stretch;
@@ -363,6 +367,7 @@
   box-sizing: border-box;
   gap: var(--gap-xs);
   max-width: 100%;
+  margin-bottom: 10px;
   font-size: var(--font-size-6xl);
 }
 .youtube-icon1 {
@@ -504,7 +509,7 @@
 }
 .image-icon2 {
   height: 487px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .b6 {
   position: relative;
@@ -2040,12 +2045,12 @@
   justify-content: flex-start;
 }
 .map5 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap1 {
   width: 1302px;

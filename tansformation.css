@@ -264,17 +264,19 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power13 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential13 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  font-size: 60px;
+  letter-spacing: 10.2px;
   color: var(--white);
 }
 .future-power-parent8 {
@@ -362,6 +364,7 @@
 .news13 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -736,7 +739,7 @@
   padding: var(--padding-749xl-9) var(--padding-27xl-4) var(--padding-23xl-2);
   box-sizing: border-box;
   gap: var(--gap-12xs-4);
-  background-image: url(./public/genealogy9@2x.png);
+  background-image: url(./public/transformation-page-image-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1106,12 +1109,12 @@
   justify-content: flex-start;
 }
 .map41 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap16 {
   width: 1302px;

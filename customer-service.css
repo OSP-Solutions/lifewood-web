@@ -248,19 +248,20 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power10 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
   line-height: 176px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential10 {
-  height: 28px;
-  font-size: var(--font-size-21xl);
-  letter-spacing: 0.17em;
+  height: 63px;
+  font-size: 60px;
+  letter-spacing: 10.2px;
 }
 .future-power-parent5 {
   align-self: stretch;
@@ -347,6 +348,7 @@
 .news10 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -1173,12 +1175,12 @@
   justify-content: flex-start;
 }
 .map32 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap11 {
   width: 1302px;
@@ -1461,4 +1463,8 @@
   .sitemap11 {
     gap: 64px 16px;
   }
+}
+.last-text {
+  font-size: var(--font-size-9xl);
+  letter-spacing: 0;
 }

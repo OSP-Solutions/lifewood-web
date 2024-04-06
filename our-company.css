@@ -267,18 +267,20 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power4 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential4 {
-  height: 43px;
-  font-size: var(--font-size-41xl);
+  height: 63px;
+  font-size: 60px;
   color: var(--white);
+  letter-spacing: 10.2px;
 }
 .future-power-parent1 {
   align-self: stretch;
@@ -365,6 +367,7 @@
 .news4 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -591,6 +594,7 @@
 .card-infos-child {
   align-self: stretch;
   height: 12px;
+  margin-top: 30px;
   position: relative;
   background-color: var(--yellow);
   overflow: hidden;
@@ -1213,7 +1217,7 @@
 .this-is-the-container2 {
   margin: 0;
   align-self: stretch;
-  height: 333px;
+  height: fit-content;
   position: relative;
   font-size: inherit;
   line-height: 35px;
@@ -1600,12 +1604,12 @@
   justify-content: flex-start;
 }
 .map14 {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap4 {
   width: 1302px;

@@ -253,18 +253,19 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-weight: 700;
+  font-weight: bold;
   font-family: inherit;
   display: inline-block;
 }
 .future-power8 {
-  height: 114px;
-  font-size: inherit;
+  height: 141px;
+  font-size: 200px;
+  letter-spacing: 16px;
 }
 .harnessing-the-potential8 {
-  height: 28px;
-  font-size: var(--font-size-21xl);
-  letter-spacing: 0.17em;
+  height: 63px;
+  font-size: 60px;
+  letter-spacing: 10.2px;
 }
 .future-power-parent4 {
   align-self: stretch;
@@ -351,6 +352,7 @@
 .news8 {
   width: 881px;
   display: flex;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -894,6 +896,7 @@
 }
 .vital-b-d-m-naturalisation-child {
   align-self: stretch;
+  margin-top: 20px;
   height: 12px;
   position: relative;
   background-color: var(--yellow);
@@ -1691,12 +1694,12 @@
   justify-content: flex-start;
 }
 .map26 {
-  width: 150px;
+  width: 200;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 200px;
 }
 .sitemap9 {
   width: 1302px;

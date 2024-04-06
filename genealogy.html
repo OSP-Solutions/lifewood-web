@@ -148,10 +148,6 @@
             <b class="exclusive-coverage-from8"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container8">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube24">
             <img
@@ -314,7 +310,7 @@
             <div class="vital-b-d-m-naturalisation">
               <div class="church-parish-registers-milita">
                 <h1 class="lifewood-genealogy">LIFEWOOD GENEALOGY</h1>
-                <div class="button266">
+                <div class="button266 cursor-pointer" id="buttonAskOurExperts">
                   <b class="button267">ASK OUR EXPERTS</b>
                   <div class="arrow-frame">
                     <img
@@ -364,7 +360,7 @@
             <div class="cards3">
               <div class="card16">
                 <div class="info16">
-                  <h1 class="data-acquisition47">GLOBAL EXPERIENCE</h1>
+                  <h1 class="data-acquisition47">GLOBAL<br />EXPERIENCE</h1>
                   <h3 class="data-acquisition48">
                     We have worked with all the major genealogy companies and
                     have extensive experience in transcribing and indexing
@@ -393,7 +389,7 @@
               </div>
               <div class="card17">
                 <div class="info17">
-                  <h1 class="data-acquisition49">50+ LANGUAGES</h1>
+                  <h1 class="data-acquisition49">50+<br />LANGUAGES</h1>
                   <h3 class="data-acquisition50">
                     Working across borders, with offices on every continents,
                     oru ability with multi-language projects has built an
@@ -422,7 +418,9 @@
               </div>
               <div class="card18">
                 <div class="info18">
-                  <h1 class="data-acquisition51">HUMANITY AT THE CENTRE</h1>
+                  <h1 class="data-acquisition51">
+                    HUMANITY<br />AT THE CENTRE
+                  </h1>
                   <h3 class="data-acquisition52">
                     Now, powered by AI and the latest inter-office communication
                     systems, we are transforming ever more efficient ways to
@@ -445,7 +443,7 @@
                     class="vector-icon35"
                     loading="lazy"
                     alt=""
-                    src="./public/vector-5@2x.png"
+                    src="./public/humanity-at-the-centre-genalogy.png"
                   />
                 </div>
               </div>
@@ -457,7 +455,7 @@
                 GENEALOGICAL MATERIAL THAT WE HAVE EXPERENCE WORKING WITH
                 INCLUDES:
               </h1>
-              <div class="button274">
+              <div class="button274 cursor-pointer" id="buttonAskOurExperts1">
                 <b class="button275">ASK OUR EXPERTS</b>
                 <img
                   class="arrow-icon138"
@@ -473,28 +471,21 @@
               </b>
             </div>
             <div class="language-selector3"></div>
-            <div class="social-media-links">
-              <div class="social-media-links-inner">
-                <div class="census-parent">
-                  <b class="census">01. Census</b>
-                  <h1 class="vital-bdm">02. Vital - BDM</h1>
-                  <h1 class="church-and-parish-container">
-                    <p class="church-and">03. Church and</p>
-                    <p class="parish-registers">Parish Registers</p>
-                  </h1>
-                </div>
+            <div class="flex flex-column w-full gap-4 my-4">
+              <div class="flex flex-grow-1 flex-row">
+                <b class="census">01.<br />Census</b>
+                <b class="census">02.<br />Vital - BDM</b>
+                <b class="census">03.<br />Church and Parish<br />Registers</b>
               </div>
-              <div class="social-media-links-child">
-                <div class="passenger-lists-parent">
-                  <h1 class="passenger-lists">04. Passenger Lists</h1>
-                  <h1 class="naturalisation">05. Naturalisation</h1>
-                  <h1 class="military-records">06. Military Records</h1>
-                </div>
+              <div class="flex flex-grow-1 flex-row">
+                <b class="census">04.<br />Passenger Lists</b>
+                <b class="census">05.<br />Naturalisation</b>
+                <b class="census">06.<br />Military Records</b>
               </div>
-              <div class="primary-nav">
-                <h1 class="legal-records">07. Legal Records</h1>
-                <h1 class="yearbooks">08. Yearbooks</h1>
-                <h1 class="h11">⠀</h1>
+              <div class="flex flex-row mt-2">
+                <b class="census">07.<br />Legal Records</b>
+                <b class="census">08.<br />Yearbooks</b>
+                <b class="census"></b>
               </div>
             </div>
           </div>
@@ -557,15 +548,29 @@
               </div>
               <div class="map25">
                 <b class="language12">LANGUAGE</b>
-                <div class="english7 cursor-pointer" id="englishText">English</div>
-                <div class="chinese7 cursor-pointer" id="chineseText">Chinese</div>
+                <div class="english7 cursor-pointer" id="englishText">
+                  English
+                </div>
+                <div class="chinese7 cursor-pointer" id="chineseText">
+                  Chinese
+                </div>
               </div>
               <div class="map26">
                 <b class="follow-us7">FOLLOW US</b>
-                <div class="linkedin8">LinkedIn</div>
-                <div class="facebook7">Facebook</div>
-                <div class="instagram8">Instagram</div>
-                <div class="youtube26 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
+                <div class="youtube24">
+                  <img
+                    class="youtube-icon8"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube@2x.png"
+                  />
+
+                  <b class="lifewood-youtube-channel-container8">
+                    <p class="lifewood8">LIFEWOOD</p>
+                    <p class="youtube25">YOUTUBE</p>
+                    <p class="channel8">CHANNEL</p>
+                  </b>
+                </div>
               </div>
             </div>
           </div>
@@ -583,112 +588,112 @@
           window.location.href = "home-page1.html";
         });
       }
-      
+
       var buttonContainer = document.getElementById("buttonContainer0");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
           window.location.href = "./ai-data-services.html";
         });
       }
-      
+
       var buttonContainer1 = document.getElementById("buttonContainer1");
       if (buttonContainer1) {
         buttonContainer1.addEventListener("click", function (e) {
           window.location.href = "./ai-projects.html";
         });
       }
-      
+
       var buttonContainer2 = document.getElementById("buttonContainer2");
       if (buttonContainer2) {
         buttonContainer2.addEventListener("click", function (e) {
           window.location.href = "./tansformation.html";
         });
       }
-      
+
       var buttonContainer3 = document.getElementById("buttonContainer3");
       if (buttonContainer3) {
         buttonContainer3.addEventListener("click", function (e) {
           window.location.href = "./global-scale.html";
         });
       }
-      
+
       var buttonContainer4 = document.getElementById("buttonContainer4");
       if (buttonContainer4) {
         buttonContainer4.addEventListener("click", function (e) {
           window.location.href = "./our-company.html";
         });
       }
-      
+
       var buttonContainer5 = document.getElementById("buttonContainer5");
       if (buttonContainer5) {
         buttonContainer5.addEventListener("click", function (e) {
           window.location.href = "./careers.html";
         });
       }
-      
+
       var button = document.getElementById("button");
       if (button) {
         button.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
         });
       }
-      
+
       var logo = document.getElementById("logo");
       if (logo) {
         logo.addEventListener("click", function (e) {
           window.location.href = "home-page1.html";
         });
       }
-      
+
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
         });
       }
-      
+
       var aIDataServices = document.getElementById("aIDataServices");
       if (aIDataServices) {
         aIDataServices.addEventListener("click", function (e) {
           window.location.href = "home-page1.html";
         });
       }
-      
+
       var aIProjectsText = document.getElementById("aIProjectsText");
       if (aIProjectsText) {
         aIProjectsText.addEventListener("click", function (e) {
           window.location.href = "./ai-projects.html";
         });
       }
-      
+
       var transformationText = document.getElementById("transformationText");
       if (transformationText) {
         transformationText.addEventListener("click", function (e) {
           window.location.href = "./tansformation.html";
         });
       }
-      
+
       var globalScaleText = document.getElementById("globalScaleText");
       if (globalScaleText) {
         globalScaleText.addEventListener("click", function (e) {
           window.location.href = "./global-scale.html";
         });
       }
-      
+
       var ourCompanyText = document.getElementById("ourCompanyText");
       if (ourCompanyText) {
         ourCompanyText.addEventListener("click", function (e) {
           window.location.href = "./our-company.html";
         });
       }
-      
+
       var careersText = document.getElementById("careersText");
       if (careersText) {
         careersText.addEventListener("click", function (e) {
           window.location.href = "./careers.html";
         });
       }
-       var lanCh = document.getElementById("buttonCh");
+      var lanCh = document.getElementById("buttonCh");
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "./ch";
@@ -707,6 +712,20 @@
           window.location.href = "/ch/index.html";
         });
       }
-      </script>
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+    </script>
   </body>
 </html>

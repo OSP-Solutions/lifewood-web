@@ -148,10 +148,6 @@
             <b class="exclusive-coverage-from11"
               >Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE</b
             >
-            <b class="hong-kong-4-10th-container11">
-              <span>Hong Kong, 4-10<sup>th</sup></span>
-              <span>April 2024, Lifewood Innovation Lab Facility</span>
-            </b>
           </div>
           <div class="youtube33 cursor-pointer" onclick="goToYoutubeChannel()">
             <img
@@ -288,7 +284,7 @@
           <img
             class="genealogy-icon10"
             alt=""
-            src="./public/genealogy6@2x.png"
+            src="./public/computer-vision-page-image.png"
           />
 
           <div class="be-amazed30">
@@ -313,9 +309,9 @@
           <div class="frame-parent15">
             <div class="ai-enabled-customer-service-group">
               <h1 class="ai-enabled-customer-service1">
-                AI-ENABLED CUSTOMER SERVICE
+                LIFEWOOD COMPUTER VISION
               </h1>
-              <div class="button346">
+              <div class="button346 cursor-pointer" id="buttonAskOurExperts">
                 <b class="button347">ASK OUR EXPERTS</b>
                 <div class="chevron-down-x-instance">
                   <img
@@ -426,10 +422,20 @@
               </div>
               <div class="map35">
                 <b class="follow-us10">FOLLOW US</b>
-                <div class="linkedin11">LinkedIn</div>
-                <div class="facebook10">Facebook</div>
-                <div class="instagram11">Instagram</div>
-                <div class="youtube35 cursor-pointer" onclick="goToYoutubeChannel()">Youtube</div>
+                <div class="youtube33 cursor-pointer" onclick="goToYoutubeChannel()">
+                  <img
+                    class="youtube-icon11"
+                    loading="lazy"
+                    alt=""
+                    src="./public/youtube1@2x.png"
+                  />
+      
+                  <b class="lifewood-youtube-channel-container11">
+                    <p class="lifewood11">LIFEWOOD</p>
+                    <p class="youtube34">YOUTUBE</p>
+                    <p class="channel11">CHANNEL</p>
+                  </b>
+                </div>
               </div>
             </div>
           </div>
@@ -564,6 +570,13 @@
       if (chineseText) {
         chineseText.addEventListener("click", function (e) {
           window.location.href = "/ch/index.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
         });
       }
       </script>
