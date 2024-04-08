@@ -193,28 +193,13 @@
       </section>
       <section class="tansformation-inner">
         <div class="frame-parent16">
-          <div class="genealogy-parent7">
-            <img
-              class="genealogy-icon12"
-              alt=""
-              src="./public/genealogy8@2x.png"
-            />
 
-            <div class="amazed-wrapper6">
-              <img
-                class="amazed-icon40"
-                loading="lazy"
-                alt=""
-                src="./public/amazed.svg"
-              />
-            </div>
-            <img
-              class="diamond-icon40"
-              loading="lazy"
-              alt=""
-              src="./public/diamond.svg"
-            />
-          </div>
+          <video id="transformation-video" class="transformation-video" style="z-index: 999;"  loop >
+            <source src="./public/transformation-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+
           <div class="wrapper23">
             <div class="frame-parent17">
               <div class="constant-innovation-unlimited-parent4">
@@ -586,6 +571,17 @@
           window.location.href = "/ch/index.html";
         });
       }
+
+        document.getElementById('transformation-video').addEventListener('click', function (e) {
+    if (this.muted) {
+      this.muted = false;
+    }
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });
       </script>
   </body>
 </html>
