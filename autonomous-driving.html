@@ -167,10 +167,7 @@
       </section>
       <section class="two-column-text21">
         <div class="at-lifewood-we-empower-busine-parent19">
-          <video id="transformation-video" class="transformation-video" style="z-index: 999; "  loop >
-            <source src="./public/transformation-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+
           <h2 class="at-lifewood-we28">
             At Lifewood, innovation drives us continually forward.
           </h2>
@@ -193,6 +190,10 @@
             </div>
           </div>
         </div>
+        <video id="transformation-video" class="transformation-video" style="z-index: 999; margin-top:50px;"  loop >
+          <source src="./public/transformation-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </section>
       <div class="world-map9">
         <div class="grid11">
@@ -576,6 +577,16 @@
           window.location.href = "./contact.html";
         });
       }
+  document.getElementById('transformation-video').addEventListener('click', function (e) {
+    if (this.muted) {
+      this.muted = false;
+    }
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });
       </script>
   </body>
 </html>

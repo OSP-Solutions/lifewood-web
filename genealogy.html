@@ -709,6 +709,16 @@
           window.location.href = "./contact.html";
         });
       }
+  document.getElementById('transformation-video').addEventListener('click', function (e) {
+    if (this.muted) {
+      this.muted = false;
+    }
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });
     </script>
   </body>
 </html>
