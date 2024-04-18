@@ -273,7 +273,7 @@
 }
 .future-power4 {
   height: 141px;
-  font-size: 200px;
+  font-size: 150px;
   letter-spacing: 16px;
 }
 .harnessing-the-potential4 {
@@ -328,7 +328,7 @@
   justify-content: flex-start;
   padding: var(--padding-79xl) var(--inline-padding-sm);
   gap: var(--gap-3xs);
-  background-image: url(./public/hero-section14@3x.png);
+  background-image: url(./public/hero-section13@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

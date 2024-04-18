@@ -14,6 +14,10 @@ body {
   overflow: visible; /* Let the body overflow be visible to the html */
 }
 
+[class^="banner"] {
+    color: var(--black) !important;
+}
+
 @media (max-width: 1024px) {
   body {
     transform-origin: top left;
@@ -40,7 +44,7 @@ p{
 }
 :root {
   /* fonts */
-  --font: "Cera Pro";
+--font: "Avenir";
   --font-din-condensed: "DIN Condensed";
 
   /* font sizes */
@@ -80,7 +84,8 @@ p{
   --white: #fff;
   --gray: #434242;
   --green: #065940;
-  --yellow: #f9a51a;
+  /*--yellow: #f9a51a;*/
+  --yellow: #d9d9d9;
   --color-teal: #2b8066;
   --color-black: #000;
   --light-gray: #e4e4e4;
