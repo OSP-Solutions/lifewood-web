@@ -409,6 +409,42 @@
           window.location.href = "/ch/index.html";
         });
       }
+
+      // Function to handle form submission
+      function handleFormSubmit() {
+        // Get form input values
+        var firstName = document.querySelector('.input1').innerText;
+        var lastName = document.querySelector('.input3').innerText;
+        var email = document.querySelector('.input5').innerText;
+        var company = document.querySelector('.input7').innerText;
+        var country = document.querySelector('.input9').innerText;
+        var phoneNumber = document.querySelector('.input11').innerText;
+        var message = document.querySelector('.input13').innerText;
+
+        // Compose the email body
+        var emailBody = 'First Name: ' + firstName + '\n' +
+                        'Last Name: ' + lastName + '\n' +
+                        'Email: ' + email + '\n' +
+                        'Company: ' + company + '\n' +
+                        'Country: ' + country + '\n' +
+                        'Phone Number: ' + phoneNumber + '\n' +
+                        'Message: ' + message;
+
+        // Construct the mailto link
+        var mailtoLink = 'mailto:info@lifewood.com' +
+                         '?subject=Contact Form Submission' +
+                         '&body=' + encodeURIComponent(emailBody);
+
+        // Open default email client with pre-populated data
+        window.location.href = mailtoLink;
+      }
+
+      // Add click event listener to the "Contact Us" button
+      var contactButton = document.querySelector('.button432');
+      if (contactButton) {
+        contactButton.addEventListener('click', handleFormSubmit);
+      }
+
       </script>
   </body>
 </html>

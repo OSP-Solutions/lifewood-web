@@ -320,7 +320,7 @@
 .in-the-news15 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--font-size-6xl);
   font-weight: 700;
   font-family: inherit;
 }

@@ -261,6 +261,7 @@
 .future-power14,
 .harnessing-the-potential14 {
   margin: 0;
+  margin-top:50px;
   align-self: stretch;
   position: relative;
   font-weight: bold;
@@ -336,7 +337,7 @@
 .in-the-news14 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--font-size-6xl);
   font-weight: 700;
   font-family: inherit;
 }
