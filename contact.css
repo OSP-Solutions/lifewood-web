@@ -252,7 +252,7 @@
   align-self: stretch;
   height: 141px;
   position: relative;
-  font-size: 150px;
+  font-size: 130px;
   font-weight: bold;
   letter-spacing: 16px;
   font-family: inherit;
@@ -262,7 +262,7 @@
   align-self: stretch;
   height: 28px;
   position: relative;
-  font-size: var(--font-size-21xl);
+  font-size: 35;
   letter-spacing: 0.17em;
   display: none;
   color: var(--white);

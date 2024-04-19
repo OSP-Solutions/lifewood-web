@@ -263,14 +263,14 @@
 }
 .future-power1 {
   height: 141px;
-  font-size: 150px;
+  font-size: 130px;
   font-family: inherit;
   letter-spacing: 16px;
   color: var(--yellow);
 }
 .harnessing-the-potential1 {
   height: 63px;
-  font-size: 60px;
+  font-size: 35px;
   color: var(--white);
   letter-spacing: 10.2px;
 }
@@ -333,7 +333,7 @@
 .in-the-news1 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--font-size-6xl);
   font-weight: 700;
   font-family: inherit;
 }
