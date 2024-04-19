@@ -1106,7 +1106,6 @@
 }
 .single-item6 {
   width: 550px;
-  align-items: flex-end;
   padding: var(--padding-xl) 0;
   box-sizing: border-box;
   gap: var(--gap-3xs);
@@ -1184,7 +1183,6 @@
 }
 .single-item7 {
   width: 550px;
-  align-items: flex-end;
   padding: var(--padding-xl) 0;
   box-sizing: border-box;
   gap: var(--gap-3xs);
@@ -1262,7 +1260,6 @@
 }
 .single-item8 {
   width: 550px;
-  align-items: flex-end;
   padding: var(--padding-xl) 0;
   box-sizing: border-box;
   gap: var(--gap-3xs);
@@ -1325,7 +1322,6 @@
 .bottom8,
 .single-item9 {
   overflow: hidden;
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
@@ -1402,7 +1398,6 @@
 .bottom9,
 .single-item10 {
   overflow: hidden;
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
@@ -2112,6 +2107,10 @@
   align-items: flex-start;
   letter-spacing: normal;
 }
+
+
+
+
 @media screen and (max-width: 1650px) {
   .at-lifewood-we-empower-busine-group,
   .grid2,
