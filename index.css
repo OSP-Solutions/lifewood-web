@@ -1,3 +1,8 @@
+
+.scaled-image {
+  transform: scale(1.2); /* Scale the image by 20% */
+}
+
 .lifewood-icon1 {
   align-self: stretch;
   width: 209.5px;
@@ -1586,7 +1591,7 @@
   align-self: stretch;
   flex: 1;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: var(--gap-245xl-9);
 }
 .align {
@@ -1982,7 +1987,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 30%;
 }
 .chinese,
 .english,
@@ -1999,7 +2004,7 @@
   min-width: 74px;
 }
 .map4 {
-  width: 150px;
+  width: 30%;
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
@@ -2007,7 +2012,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
-  min-width: 150px;
+  min-width: 30%;
 }
 .follow-us {
   position: relative;
@@ -2041,12 +2046,12 @@
   justify-content: flex-start;
 }
 .map5 {
-  width: 200px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-3xs);
-  min-width: 200px;
+  min-width: 30%;
 }
 .sitemap1 {
   width: 1302px;
