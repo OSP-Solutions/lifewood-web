@@ -2,6 +2,55 @@ html {
   height: 100%; /* Full viewport height */
   overflow: auto; /* Allow scrolling if needed */
 }
+header {
+    font-weight: 500 !important;
+}
+.lifewood-parent,
+.lifewood-parent1,
+.lifewood-parent2,
+.lifewood-parent3,
+.lifewood-parent4,
+.lifewood-parent5,
+.lifewood-parent6,
+.lifewood-parent7,
+.lifewood-parent8,
+.lifewood-parent9,
+.lifewood-parent10,
+.lifewood-parent11,
+.lifewood-parent12,
+.lifewood-parent13,
+.lifewood-parent14,
+.lifewood-parent15,
+.lifewood-parent16,
+.lifewood-parent17,
+.lifewood-parent18,
+.lifewood-parent19,
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6,
+.nav7,
+.nav8,
+.nav9,
+.nav10,
+.nav11,
+.nav12,
+.nav13,
+.nav14,
+.nav15,
+.nav16,
+.nav17,
+.nav18,
+.nav19,
+.nav20,
+header {
+    overflow: visible !important;
+}
+
+
+
 
 body {
   margin: 0;
@@ -12,6 +61,14 @@ body {
   width: 133.333%; /* Counteract the effect of scaling */
   min-height: 100%; /* At least 100% of the viewport height */
   overflow: visible; /* Let the body overflow be visible to the html */
+}
+
+[class^="banner"] {
+    color: var(--black) !important;
+}
+
+[class^="map"] {
+    width:30% !important;
 }
 
 @media (max-width: 1024px) {
@@ -38,10 +95,9 @@ body {
 p{
   white-space:nowrap !important;
 }
-
 :root {
   /* fonts */
-  --font: "Cera Pro";
+--font: "Avenir" !important;
   --font-din-condensed: "DIN Condensed";
 
   /* font sizes */
@@ -49,12 +105,12 @@ p{
   --font-size-base: 16px;
   --font-size-9xl: 28px;
   --font-size-3xl: 22px;
-  --font-size-45xl: 64px;
+  --font-size-45xl: 60px;
   --font-size-19xl: 38px;
   --font-size-32xl: 51px;
   --font-size-6xl: 25px;
-  --font-size-111xl: 130px;
-  --font-size-13xl: 32px;
+  --font-size-111xl: 110px;
+  --font-size-13xl: 30px;
   --font-size-33xl: 52px;
   --font-size-31xl: 50px;
   --font-size-11xl: 30px;
@@ -66,22 +122,23 @@ p{
   --font-size-26xl: 45px;
   --font-size-8xl: 27px;
   --font-size-17xl: 36px;
-  --font-size-61xl: 80px;
+  --font-size-61xl: 60px;
   --font-size-5xl: 24px;
   --font-size-lg: 18px;
-  --font-size-41xl: 60px;
-  --font-size-16xl: 35px;
+  --font-size-41xl: 50px;
+  --font-size-16xl: 30px;
   --font-size-2xl: 21px;
   --font-size-mini-6: 14.6px;
   --font-size-141xl: 160px;
   --font-size-101xl: 120px;
-  --font-size-15xl: 34px;
+  --font-size-15xl: 30px;
 
   /* Colors */
   --white: #fff;
   --gray: #434242;
   --green: #065940;
-  --yellow: #f9a51a;
+  /*--yellow: #f9a51a;*/
+  --yellow: #d9d9d9;
   --color-teal: #2b8066;
   --color-black: #000;
   --light-gray: #e4e4e4;
@@ -210,4 +267,40 @@ p{
 
 .cursor-pointer:hover {
   cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+.w-full {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.my-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.mt-2 {
+  margin-top: 2rem
 }

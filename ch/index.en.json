@@ -1,0 +1,103 @@
+{
+  "header": {
+    "services": "Services",
+    "projects": "Projects",
+    "transformation": "Transformation",
+    "global_scale": "Global Scale",
+    "our_company": "Our Company",
+    "careers": "Careers",
+    "contact": "Contact",
+    "english": "English"
+  },
+  "sections": {
+    "hero_section": {
+      "future_power": "FUTURE POWER",
+      "harnessing_ai": "HARNESSING THE POTENTIAL OF AI"
+    },
+    "banner": {
+      "in_the_news": "IN THE NEWS",
+      "exclusive_coverage": "Exclusive coverage from LIFEWOOD ANNUAL CONFERENCE",
+      "lifewood_youtube_channel": "LIFEWOOD YOUTUBE CHANNEL"
+    },
+    "two_column_text": {
+      "at_lifewood": "At Lifewood, we empower business",
+      "to_realise": "to realise the transformative potential of AI:",
+      "bringing_big_data": "bringing big data to life: launching new",
+      "ways_of_thinking": "ways of thinking, innovating, doing.",
+      "this_is_the_next_level": "This is the next level of AI's potential, uncovering new methods and",
+      "insights_to_reveal": "insights to reveal unexpected directions and possibilities:",
+      "connecting_across_time": "connecting across time, generations and technologies for everyone;",
+      "delivering_the_highest": "delivering the highest levels of scalability, integration and security.",
+      "harness_the_technology": "Harness the technology of the future: bring your data to life",
+      "your_business_to": "your business to greater heights!"
+    },
+    "world_map": {
+      "transforming_data_on_a_global": "TRANSFORMING DATA ON A GLOBAL",
+      "scale": "SCALE",
+      "lifewood_active_in": "Lifewood, active in 16 countries from locations as diverse",
+      "as_benin_and": "as Benin and Britain, Singapore and Seattle, drives ever",
+      "forward_igniting_a": "forward, igniting a culture of innovation, building bridges",
+      "and_forming_new": "and forming new friendships in the ceaseless motion of",
+      "business_and_the": "business and the unlimited possibilities of AI and GPT -",
+      "creating_dynamic_opportunities": "creating dynamic opportunities and prosperous",
+      "communities_around_the": "communities around the world."
+    },
+    "inovation": {
+      "constant_innovation": "CONSTANT INNOVATION:",
+      "unlimited_possibilities": "UNLIMITED POSSIBILITIES",
+      "a_wide_variety_of_services": "A wide variety of services",
+      "for_all_types_of_ai": "for all types of AI training data",
+      "no_matter_the_industry": "No matter the industry, size, or the type of data involved,",
+      "our_solutions_are": "our solutions are capable of satisfying any AI, data",
+      "processing_or_business": "processing or business requirements."
+    },
+    "services": {
+      "a_wide_variety_of_services": "A WIDE VARIETY OF SERVICES",
+      "for_all_types_of_ai": "FOR ALL TYPES OF AI TRAINING DATA",
+      "data_acquisition": "Data Acquisition",
+      "data_collection": "Data Collection",
+      "data_annotation": "Data Annotation",
+      "data_curation": "Data Curation",
+      "data_validation": "Data Validation",
+      "find_out_more_about_our_ai": "FIND OUT MORE ABOUT OUR AI DATA SERVICES"
+    },
+    "genealogy": {
+      "be_amazed": "BE AMAZED",
+      "genealogy": "GENEALOGY",
+      "powered_by_ai": "Powered by AI, Lifewood processes genealogical material at",
+      "speed_and_scale": "speed and scale, to conserve and illuminate family histories,",
+      "national_archives_corporate": "national archives, corporate lists and records of all types.",
+      "lifewood_has_more_than": "Lifewood has more than 18 years of experience capturing,",
+      "scanning_and_processing": "scanning and processing genealogical data. In fact, Lifewood",
+      "started_with_genealogy": "started with genealogy data as its core business, so that",
+      "the_years_we": "the years we have accumulated vast knowledge in diverse",
+      "of_genealogy_indexing": "of genealogy indexing."
+    },
+    "data_training": {
+      "gain_the_edge_with_top_of_the": "GAIN THE EDGE WITH",
+      "line_data_training": "TOP-OF-THE-LINE DATA TRAINING",
+      "ai_drives_big_data": "AI drives big data, big data fuels AI. This is the future of",
+      "ai_but_its_only_possible_with": "AI. But it’s only possible with a push in the",
+      "right_direction": "right direction. Lifewood can show you where to start to uncover",
+      "the_fullest_potential": "the fullest potential on your AI journey with industry-leading",
+      "solutions_and_services": "solutions and services."
+    },
+    "footer": {
+      "contact_us": "Contact us",
+      "menu": "MENU:",
+      "services": "Services",
+      "projects": "Projects",
+      "transformation": "Transformation",
+      "global_scale": "Global scale",
+      "our_company": "Our company",
+      "careers": "Careers",
+      "language": "LANGUAGE",
+      "english": "English",
+      "chinese": "Chinese",
+      "follow_us": "FOLLOW US"
+    }
+  },
+  "button_texts": {
+    "read_more": "READ MORE"
+  }
+}
