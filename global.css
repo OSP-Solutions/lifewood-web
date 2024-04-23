@@ -5,6 +5,10 @@ html {
 header {
     font-weight: 500 !important;
 }
+.lifewood-parent,
+.nav1 {
+    overflow: visible !important;
+}
 
 body {
   margin: 0;
