@@ -236,7 +236,7 @@
 .lifewood-container,
 .nav4 {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: row;
   justify-content: center;

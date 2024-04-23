@@ -237,7 +237,7 @@
 .nav3,
 .navbar {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
   flex-shrink: 0;
   justify-content: center;
 }
