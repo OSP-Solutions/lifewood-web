@@ -1,5 +1,6 @@
+
       function goToYoutubeChannel() {
-        window.open("https://youtube.com/@LifewoodDataTechnology/videos","_blank");
+        window.location.href = "https://youtube.com/@LifewoodDataTechnology/videos";
       }
       var lifewood = document.getElementById("lifewood");
       if (lifewood) {
@@ -22,51 +23,37 @@
         });
       }
 
-      var button = document.getElementById("button");
-      if (button) {
-        button.addEventListener("click", function (e) {
-          window.location.href = "./tansformation.html";
-        });
-      }
-
       var buttonContainer2 = document.getElementById("buttonContainer2");
       if (buttonContainer2) {
         buttonContainer2.addEventListener("click", function (e) {
-          window.location.href = "./global-scale.html";
+          window.location.href = "./tansformation.html";
         });
       }
 
       var buttonContainer3 = document.getElementById("buttonContainer3");
       if (buttonContainer3) {
         buttonContainer3.addEventListener("click", function (e) {
-          window.location.href = "./our-company.html";
+          window.location.href = "./global-scale.html";
         });
       }
 
       var buttonContainer4 = document.getElementById("buttonContainer4");
       if (buttonContainer4) {
         buttonContainer4.addEventListener("click", function (e) {
+          window.location.href = "./our-company.html";
+        });
+      }
+
+      var buttonContainer5 = document.getElementById("buttonContainer5");
+      if (buttonContainer5) {
+        buttonContainer5.addEventListener("click", function (e) {
           window.location.href = "./careers.html";
         });
       }
 
-      var button1 = document.getElementById("button1");
-      if (button1) {
-        button1.addEventListener("click", function (e) {
-          window.location.href = "./contact.html";
-        });
-      }
-
-      var button1 = document.getElementById("buttonAskOurExperts");
-      if (button1) {
-        button1.addEventListener("click", function (e) {
-          window.location.href = "./contact.html";
-        });
-      }
-
-      var button1 = document.getElementById("buttonAskOurExperts1");
-      if (button1) {
-        button1.addEventListener("click", function (e) {
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
         });
       }
@@ -81,6 +68,13 @@
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+
+      var button1 = document.getElementById("buttonAskOurExperts");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
           window.location.href = "./contact.html";
         });
       }
@@ -126,12 +120,14 @@
           window.location.href = "./careers.html";
         });
       }
+
       var lanCh = document.getElementById("buttonCh");
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
           window.location.href = "../";
         });
       }
+
       var englishText = document.getElementById("englishText");
       if (englishText) {
         englishText.addEventListener("click", function (e) {
@@ -145,14 +141,3 @@
           window.location.href = "/ch/index.html";
         });
       }
-
-  document.getElementById('transformation-video').addEventListener('click', function (e) {
-    if (this.muted) {
-      this.muted = false;
-    }
-    if (this.paused) {
-      this.play();
-    } else {
-      this.pause();
-    }
-  });

@@ -115,7 +115,7 @@
             var lanCh = document.getElementById("buttonCh");
       if (lanCh) {
         lanCh.addEventListener("click", function (e) {
-          window.location.href = "./ch";
+          window.location.href = "../";
         });
       }
       var englishText = document.getElementById("englishText");
