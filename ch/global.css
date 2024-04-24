@@ -5,6 +5,24 @@ html {
 header {
     font-weight: 500 !important;
 }
+
+
+      @font-face {
+        font-family: "Cera Pro";
+        src: url("./public/Cera Pro Regular.otf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Cera Pro";
+        src: url("./public/Cera Pro Bold.otf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "DIN Condensed";
+        src: url("./public/DIN Condensed Bold.ttf");
+        font-weight: 700;
+      }
+
 .lifewood-parent,
 .lifewood-parent1,
 .lifewood-parent2,
