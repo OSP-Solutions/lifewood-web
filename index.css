@@ -1841,6 +1841,7 @@
 .grid3 {
   display: flex;
   box-sizing: border-box;
+
 }
 .cta3 {
   width: 888px;
@@ -1852,6 +1853,7 @@
   min-width: 888px;
   max-width: 100%;
   margin-left: -2px;
+    padding-left:75px;
 }
 .grid3 {
   width: 1640px;
@@ -2590,3 +2592,5 @@
     gap: 64px 16px;
   }
 }
+
+

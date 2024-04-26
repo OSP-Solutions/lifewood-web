@@ -89,26 +89,6 @@ body {
     width:30% !important;
 }
 
-@media (max-width: 1024px) {
-  body {
-    transform-origin: top left;
-    transform: scale(0.5); /* Further reduce scale for smaller screens */
-    width: 200%; /* Adjust the width to counteract the scaling */
-   min-height: 100%; /* At least 100% of the viewport height */
-  overflow: visible; /* Let the body overflow be visible to the html */
- }
-}
-
-
-@media (max-width: 768px) {
-  body {
-    transform-origin: top left;
-    transform: scale(0.25); /* Further reduce scale for smaller screens */
-    width: 400%; /* Adjust the width to counteract the scaling */
-  min-height: 100%; /* At least 100% of the viewport height */
-  overflow: visible; /* Let the body overflow be visible to the html */
-  }
-}
 
 p{
   white-space:nowrap !important;
@@ -321,4 +301,29 @@ p{
 
 .mt-2 {
   margin-top: 2rem
+}
+
+@media (max-width: 1024px) {
+  body {
+    transform-origin: top left;
+    transform: scale(0.5); /* Further reduce scale for smaller screens */
+    width: 200%; /* Adjust the width to counteract the scaling */
+   min-height: 100%; /* At least 100% of the viewport height */
+  overflow: visible; /* Let the body overflow be visible to the html */
+ }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    transform-origin: top left;
+    transform: scale(0.25); /* Further reduce scale for smaller screens */
+    width: 400%; /* Adjust the width to counteract the scaling */
+  min-height: 100%; /* At least 100% of the viewport height */
+  overflow: visible; /* Let the body overflow be visible to the html */
+  }
+
+
+
+
 }
